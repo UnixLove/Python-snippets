@@ -1,0 +1,17 @@
+# Method number 1: An example of reversing a string using a loop.
+
+#!/usr/bin/env python
+
+string = "Enter the text you would like to reverse here."
+revString = ""
+
+for char in string[:]:
+   revString = char + revString
+Print (revString)  
+
+
+
+# Method number 2: How-to reverse a string upon printing it out. 
+
+string = "Enter the text you would like to reverse here."
+print(string[::-1])
